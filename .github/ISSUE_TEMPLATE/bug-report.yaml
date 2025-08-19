@@ -11,9 +11,9 @@ body:
           required: true
           
   - type: input
-      attributes:
+    attributes:
         label: 整合包版本
         placeholder: ""
-        validations:
+      validations:
           required: true
         
