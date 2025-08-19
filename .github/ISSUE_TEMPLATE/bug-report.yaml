@@ -40,7 +40,6 @@ body:
         - 使用 https://mclo.gs/ 网站保存自己的报错信息，得到一个报错分享链接
         - 粘贴生成的报错分享链接
   - type: input
-    id: error-log
     attributes:
       label: 错误日志链接 / Error Log Link
       placeholder: https://mclo.gs/...
@@ -73,7 +72,9 @@ body:
     attributes:
       label: 预期表现 / Expected behavior
       description: 说明正常情况下的预期表现
-      placeholder: 我预期应该发生...
+      placeholder: |
+      简明扼要说明没有bug的情况下，你预期应该发生什么
+      A clear and concise description of what you expected to happen.
     validations:
       required: true
       
