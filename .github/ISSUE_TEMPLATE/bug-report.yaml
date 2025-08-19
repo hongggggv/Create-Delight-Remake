@@ -61,7 +61,7 @@ body:
     id: reproduction-steps
     attributes:
       label: 复现方法 / To Reproduce
-      description: 复现这个bug的步骤（按顺序列出）Steps to reproduce the behavior:
+      description: 复现这个bug的步骤（按顺序列出）Steps to reproduce the behavior
       placeholder: |
         1. ...
         2. ...
