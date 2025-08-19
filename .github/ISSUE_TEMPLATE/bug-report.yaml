@@ -1,4 +1,4 @@
-  name: Bug Report
+name: Bug Report
 description: 提交问题 Report bug
 body:
   - type: markdown
