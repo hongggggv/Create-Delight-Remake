@@ -3,7 +3,7 @@ description: 提交问题 Report bug
 body:
   - type: markdown
     attributes:
-      lable: 检查整合包版本 Check if modpack version is newest
+      label: 检查整合包版本 Check if modpack version is newest
       value: |
         - 确认整合包版本是否为最新，看标题界面右下角两行小字，红框圈住位置会有 v0.x.x.x 形式的整合包版本
         - 最新整合包版本可通过三个小人下方的公告确认
@@ -19,7 +19,7 @@ body:
       
   - type: markdown
     attributes:
-      lable: 确认是否有修改整合包 Make sure you or server holder haven't modify the modpack
+      label: 确认是否有修改整合包 Make sure you or server holder haven't modify the modpack
       value: |
         - 请确认自己是否对整合包内的mod、kubejs脚本、mbd2文件等做了增删
         - 如果是服务器游玩中的问题，请先联系服务器服主确认
@@ -34,7 +34,7 @@ body:
       
   - type: markdown
     attributes:
-      lable: 错误日志 log
+      label: 错误日志 log
       value: |
         - 如果是崩溃或者明显的异常，请收集报错信息。一般可进入日志文件夹获取latest.log
         - 使用 https://mclo.gs/ 网站保存自己的报错信息，得到一个报错分享链接
